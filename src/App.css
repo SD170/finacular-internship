@@ -1,0 +1,29 @@
+.middle-content{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1px 16px;
+}
+.same-side
+{
+  display:flex;
+  flex-direction:row;
+}
+
+.chart-canvas{
+  /* width: 60vw;
+  height: 50vh;
+  background-color: gray;
+  padding: 5px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;  
+  border-radius: 7px;
+  padding: 7px;
+  width: 60vw;
+  height: 50vh;
+  margin: 2px; */
+  margin-right: 1%;
+  margin-bottom: 2%;
+}

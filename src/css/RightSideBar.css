@@ -1,0 +1,40 @@
+.right-sidebar {
+    
+    /* margin: 0; */
+    margin-left: 90%;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Sidebar links */
+  .right-sidebar label {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .right-sidebar label.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .right-sidebar label:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+.right-card-pad{
+  padding: 5px;
+}
